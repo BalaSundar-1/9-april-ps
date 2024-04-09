@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.navbar-transparent {
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value (last parameter) to change the opacity */
+}
+ .navbar-solid {
+  background-color: #ffffff; 
+}  
+#formbackground{
+  background: #6a11cb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#navcolor
+{
+  /* background: linear-gradient(135deg, hsl(67, 70%, 88%),#61045f); */
+  /* background-color:rgb(17, 62, 131); */
+  background-color: #ffffff;
+}
+#aboutname{
+  background: linear-gradient(135deg,#DDDDDA);
+}
+nav{
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: aqua;
+}
+#about7
+{
+  font-size:20px;
+}
+#about7:hover{
+ background-color:#7693e4;
+}
+#about8{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align:left
+}
+#aboutpic{
+  border-radius: 30px;
+  transition: transform 1s ease-out;
+}
+#aboutpic:hover{
+  transform: scale(1.1);
+  height: 400px;
+}
+#form-group
+{
+  background-color: black;
+  width:100px;
+}
+#para{
+  font-weight: bold;
+  font-size: larger;
+}
+#aboutbackground{
+  background-color: black;
+  background-size:cover;
+  background-position: center;
+  /* height: 100vh; */
+}
+#img1{
+margin-top: 50px;
+}
+#background{
+  margin-left:45%;
+  color:aliceblue;
+  font-family: Geneva;
+  font-size: 50px;
+  background-attachment: fixed;
+}
+#ceo{
+  margin-top:20px;
+  margin-left: 60px;
+}
+.imgdiv
+{
+  border-radius: 50%;
+}
+#aboutc{
+  background: linear-gradient(135deg, #141e30, #61045f);
+}
+#about2{
+  margin-top: 100px;
+  margin-left: 130px;
+ display: inline-block;
+}
+@media screen and (min-width:500px){
+  #about3{
+    display: grid;
+    border-radius: 20px;
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+#text{
+  color:#DDDDDA
+}
+#empid{
+  border: 2px solid black
+}
+#delbutton{
+  margin-left: 50px;
+}
+#managepage{
+  background: linear-gradient(135deg, #000428, #004e92);
+    border-radius: 20px;
+    background-size: cover;
+    /* height:100vh; */
+    background-attachment:sticky;
+    background-repeat: no-repeat;
+}
+.donecolor{
+  background-color:whitesmoke
+}
+#about3{
+  background-image: url('./images/about1.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about8{
+  font-family: 'Times New Roman', Times, serif;
+}
+#grad {
+  font-size: 50px;
+  background: -webkit-linear-gradient(#ca1212, hsl(69, 100%, 59%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#bggrad
+{
+    background: linear-gradient(135deg, #000428, #004e92);
+    border-radius: 20px;
+}
+#navtext
+{
+  color: #040a01;
+  font-weight:bold;
+}
+/* .mdiv1{
+  border-radius: 20px;
+} */
+.magaesubmit{
+  margin-left: 70px;
+}
+#navtext:hover{
+  color:rgb(200, 23, 10);
+  font-size: 25px;
+}
+#navtext:active{
+    font-weight:bold;
+    color:#ca1212
+}
+@media screen and (min-width:992px){
+  .p1{
+    margin-top:70px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 100px;
+    gap: 3.5em;
+  }
+  }
+  .un{
+    text-decoration: none;
+    border-radius: 60px;
+  }
+  #o:hover{
+    /* background-color
+    :whitesmoke; */
+    transition: transform 0.2s ease-out;
+    color:#7693e4;
+    transform: scale(1.1);
+    /* box-shadow: 10px 10px 0px hsl(0, 11%, 93%),15px 15px 10px rgb(88, 87, 87);  */
+    box-shadow: 5px 10px 5px rgba(53, 54, 54, 0.841);
+  }
+  #o{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px  rgb(16, 14, 16); 
+    transition: transform 0.2s ease;
+  }
+  .mainEmp{
+    background-color: aliceblue;
+    /* background: linear-gradient(135deg, #3852b0, hsl(195, 3%, 23%)); */
+  }
+#form1{
+  margin-top: 200px;
+}
+#aboutbutton:hover
+{
+background-color: chartreuse;
+color: hsl(252, 92%, 51%);
+}
+#gallaryImg
+{
+  border-radius: 20px;
+  background-color:whitesmoke;
+}
+#donetextarea{
+background-color: antiquewhite;
+}
+#doneimage
+{
+  border-radius: 20px;
+}
+#formcolor{
+  background-color: #7693e4;
+}
+#mysubmisions:hover
+{
+  background-color: #7693e4;
+}
+.shiny-hover {
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+}
+
+.shiny-hover:hover {
+  transform: scale(1.1) rotate(5deg); /* Apply scale and rotate transformation on hover */
+}

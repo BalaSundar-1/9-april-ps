@@ -1,0 +1,13 @@
+.d-block w-100{
+    height: 100vh;
+    position: absolute;
+
+}
+
+.card-img-top{
+    height: 40vh;
+}
+
+img{
+  height: 70vh;
+}
