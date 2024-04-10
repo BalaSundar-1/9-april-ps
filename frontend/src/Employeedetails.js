@@ -54,8 +54,8 @@ function Employeedetails()
             
             submission.map(eachsubmission=>(
                 <ul id="mark">
-                 <h4> {eachsubmission.date}</h4>
-                 <h3> {eachsubmission.content} </h3>
+                <h4 className="mb-3">{eachsubmission.date}</h4>
+                 <h3 className="mb-4">{eachsubmission.content}</h3>
                  <div className='row p-3'id="gap"><h1 className='row'></h1></div>
                 </ul>
             ))
