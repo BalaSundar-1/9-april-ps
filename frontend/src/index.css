@@ -231,3 +231,10 @@ background-color: antiquewhite;
 .shiny-hover:hover {
   transform: scale(1.1) rotate(5deg); /* Apply scale and rotate transformation on hover */
 }
+#mark{
+  box-shadow: 3px 5px 3px rgba(53, 54, 54, 0.841);
+}
+#mark:hover{
+ padding:20px;
+ background-color: rgb(210, 241, 241);
+}
